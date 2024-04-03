@@ -1,0 +1,51 @@
+.user {
+    width: 20%;
+    border-right: 1px solid rgb(212, 214, 224);
+    padding: 30px 30px 50px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    &_info {
+       
+        &_img {
+            width: 90px;
+            height: 90px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        &_name {
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 20px;
+        }
+        &_email {
+            color: rgb(158, 161, 177);
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+    &_list {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        &_link {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            img {
+                width: 23px;
+                height: 23px;
+            }
+            span {
+                color: rgb(0, 0, 0);
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+    }
+
+}

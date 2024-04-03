@@ -1,0 +1,29 @@
+.search {
+    display: flex;
+    &_box {
+        position: relative;
+        &_icon {
+            position: absolute;
+            top: 19px;
+            left: 19px;
+        }
+        &_input {
+            border: 1px solid rgb(239, 239, 239);
+            background: rgb(252, 252, 253); 
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 16px  30px 16px 44px;
+        }
+        &_close {
+            position: absolute;
+            right: 5px;
+            top: 19px;
+        }
+    }
+    &_btn {
+        background: rgb(74, 59, 88);
+        color: white;
+        width: 50px;
+    }
+}
